@@ -140,7 +140,7 @@ def render(entries):
             for kind, label in [('my', 'My UI'), ('reference', 'Reference UI')]:
                 text += f'### {label}\n\n' + table([e for e in entries if e['kind'] == kind and group in e['types' if key == 'type' else 'tags']]) + '\n'
         result[f'by-{key}.md'] = text if groups else text + table([])
-    return result
+    return {name: content.rstrip() + '\n' for name, content in result.items()}
 
 
 def main():

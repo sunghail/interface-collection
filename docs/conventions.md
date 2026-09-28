@@ -59,4 +59,3 @@ git grep -n '"react"' -- my-ui reference-ui
 
 `--check`는 metadata와 필수 파일, 생성 색인의 최신 상태를 확인하며 파일을 수정하지 않습니다.
 원격 URL의 유효성, 외부 라이선스 해석, 소스 실행 가능성까지 인증하는 검사는 아닙니다.
-

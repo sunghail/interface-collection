@@ -9,4 +9,3 @@
 - 외부 라이브러리는 사용할 수 있지만 해당 라이브러리의 출처와 라이선스를 기록합니다.
 
 [프로그램별 자동 목록](../catalog/my-ui.md) · [항목 템플릿](../templates/my-ui/README.md) · [작성 예시](../docs/examples/my-ui.md)
-

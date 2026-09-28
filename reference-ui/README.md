@@ -10,4 +10,3 @@
 - 소스 보관이 필요한 경우에만 `source/`를 추가하고 원본 commit, 수정 범위, 라이선스를 적습니다.
 
 [전체 목록](../catalog/reference-ui.md) · [템플릿](../templates/reference-ui/README.md) · [작성 예시](../docs/examples/reference-ui.md)
-

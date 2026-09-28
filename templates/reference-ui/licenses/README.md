@@ -8,4 +8,3 @@
 
 확인한 라이선스 전문은 LICENSE.txt, 요구되는 고지는 NOTICE.txt로 함께 보관합니다.
 코드·screenshot·폰트·아이콘의 적용 범위를 따로 확인하세요.
-

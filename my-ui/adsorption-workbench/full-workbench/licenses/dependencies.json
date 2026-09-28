@@ -1,0 +1,384 @@
+[
+  {
+    "package": "@esbuild/win32-x64",
+    "version": "0.25.12",
+    "license": "MIT",
+    "files": []
+  },
+  {
+    "package": "@types/d3-array",
+    "version": "3.0.3",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/@types--d3-array/LICENSE"
+    ]
+  },
+  {
+    "package": "@types/d3-color",
+    "version": "3.1.0",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/@types--d3-color/LICENSE"
+    ]
+  },
+  {
+    "package": "@types/d3-delaunay",
+    "version": "6.0.1",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/@types--d3-delaunay/LICENSE"
+    ]
+  },
+  {
+    "package": "@types/d3-format",
+    "version": "3.0.1",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/@types--d3-format/LICENSE"
+    ]
+  },
+  {
+    "package": "@types/d3-geo",
+    "version": "3.1.0",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/@types--d3-geo/LICENSE"
+    ]
+  },
+  {
+    "package": "@types/d3-interpolate",
+    "version": "3.0.1",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/@types--d3-interpolate/LICENSE"
+    ]
+  },
+  {
+    "package": "@types/d3-path",
+    "version": "3.1.1",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/@types--d3-path/LICENSE"
+    ]
+  },
+  {
+    "package": "@types/d3-scale",
+    "version": "4.0.2",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/@types--d3-scale/LICENSE"
+    ]
+  },
+  {
+    "package": "@types/d3-shape",
+    "version": "3.1.7",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/@types--d3-shape/LICENSE"
+    ]
+  },
+  {
+    "package": "@types/d3-time",
+    "version": "3.0.0",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/@types--d3-time/LICENSE"
+    ]
+  },
+  {
+    "package": "@types/d3-time-format",
+    "version": "2.1.0",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/@types--d3-time-format/LICENSE"
+    ]
+  },
+  {
+    "package": "@types/geojson",
+    "version": "7946.0.16",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/@types--geojson/LICENSE"
+    ]
+  },
+  {
+    "package": "@types/lodash",
+    "version": "4.17.25",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/@types--lodash/LICENSE"
+    ]
+  },
+  {
+    "package": "@types/react",
+    "version": "19.3.0",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/@types--react/LICENSE"
+    ]
+  },
+  {
+    "package": "@visx/curve",
+    "version": "4.0.1-alpha.0",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/@visx--curve/LICENSE"
+    ]
+  },
+  {
+    "package": "@visx/event",
+    "version": "4.0.1-alpha.0",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/@visx--event/LICENSE"
+    ]
+  },
+  {
+    "package": "@visx/group",
+    "version": "4.0.1-alpha.0",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/@visx--group/LICENSE"
+    ]
+  },
+  {
+    "package": "@visx/point",
+    "version": "4.0.1-alpha.0",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/@visx--point/LICENSE"
+    ]
+  },
+  {
+    "package": "@visx/scale",
+    "version": "4.0.1-alpha.0",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/@visx--scale/LICENSE"
+    ]
+  },
+  {
+    "package": "@visx/shape",
+    "version": "4.0.1-alpha.0",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/@visx--shape/LICENSE"
+    ]
+  },
+  {
+    "package": "@visx/vendor",
+    "version": "4.0.0-alpha.0",
+    "license": "MIT and ISC",
+    "files": [
+      "licenses/dependencies/@visx--vendor/LICENSE"
+    ]
+  },
+  {
+    "package": "classnames",
+    "version": "2.5.1",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/classnames/LICENSE"
+    ]
+  },
+  {
+    "package": "csstype",
+    "version": "3.2.3",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/csstype/LICENSE"
+    ]
+  },
+  {
+    "package": "d3-array",
+    "version": "3.2.1",
+    "license": "ISC",
+    "files": [
+      "licenses/dependencies/d3-array/LICENSE"
+    ]
+  },
+  {
+    "package": "d3-color",
+    "version": "3.1.0",
+    "license": "ISC",
+    "files": [
+      "licenses/dependencies/d3-color/LICENSE"
+    ]
+  },
+  {
+    "package": "d3-delaunay",
+    "version": "6.0.2",
+    "license": "ISC",
+    "files": [
+      "licenses/dependencies/d3-delaunay/LICENSE"
+    ]
+  },
+  {
+    "package": "d3-format",
+    "version": "3.1.0",
+    "license": "ISC",
+    "files": [
+      "licenses/dependencies/d3-format/LICENSE"
+    ]
+  },
+  {
+    "package": "d3-geo",
+    "version": "3.1.0",
+    "license": "ISC",
+    "files": [
+      "licenses/dependencies/d3-geo/LICENSE"
+    ]
+  },
+  {
+    "package": "d3-interpolate",
+    "version": "3.0.1",
+    "license": "ISC",
+    "files": [
+      "licenses/dependencies/d3-interpolate/LICENSE"
+    ]
+  },
+  {
+    "package": "d3-path",
+    "version": "3.1.0",
+    "license": "ISC",
+    "files": [
+      "licenses/dependencies/d3-path/LICENSE"
+    ]
+  },
+  {
+    "package": "d3-scale",
+    "version": "4.0.2",
+    "license": "ISC",
+    "files": [
+      "licenses/dependencies/d3-scale/LICENSE"
+    ]
+  },
+  {
+    "package": "d3-shape",
+    "version": "3.2.0",
+    "license": "ISC",
+    "files": [
+      "licenses/dependencies/d3-shape/LICENSE"
+    ]
+  },
+  {
+    "package": "d3-time",
+    "version": "3.1.0",
+    "license": "ISC",
+    "files": [
+      "licenses/dependencies/d3-time/LICENSE"
+    ]
+  },
+  {
+    "package": "d3-time-format",
+    "version": "4.1.0",
+    "license": "ISC",
+    "files": [
+      "licenses/dependencies/d3-time-format/LICENSE"
+    ]
+  },
+  {
+    "package": "delaunator",
+    "version": "5.1.0",
+    "license": "ISC",
+    "files": [
+      "licenses/dependencies/delaunator/LICENSE"
+    ]
+  },
+  {
+    "package": "esbuild",
+    "version": "0.25.12",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/esbuild/LICENSE.md"
+    ]
+  },
+  {
+    "package": "framer-motion",
+    "version": "12.43.0",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/framer-motion/LICENSE.md"
+    ]
+  },
+  {
+    "package": "internmap",
+    "version": "2.0.3",
+    "license": "ISC",
+    "files": [
+      "licenses/dependencies/internmap/LICENSE"
+    ]
+  },
+  {
+    "package": "lodash",
+    "version": "4.18.1",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/lodash/LICENSE"
+    ]
+  },
+  {
+    "package": "motion",
+    "version": "12.27.0",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/motion/LICENSE.md"
+    ]
+  },
+  {
+    "package": "motion-dom",
+    "version": "12.43.0",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/motion-dom/LICENSE.md"
+    ]
+  },
+  {
+    "package": "motion-utils",
+    "version": "12.39.0",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/motion-utils/LICENSE.md"
+    ]
+  },
+  {
+    "package": "react",
+    "version": "19.2.0",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/react/LICENSE"
+    ]
+  },
+  {
+    "package": "react-dom",
+    "version": "19.2.0",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/react-dom/LICENSE"
+    ]
+  },
+  {
+    "package": "robust-predicates",
+    "version": "3.0.3",
+    "license": "Unlicense",
+    "files": [
+      "licenses/dependencies/robust-predicates/LICENSE"
+    ]
+  },
+  {
+    "package": "scheduler",
+    "version": "0.27.0",
+    "license": "MIT",
+    "files": [
+      "licenses/dependencies/scheduler/LICENSE"
+    ]
+  },
+  {
+    "package": "tslib",
+    "version": "2.8.1",
+    "license": "0BSD",
+    "files": [
+      "licenses/dependencies/tslib/LICENSE.txt"
+    ]
+  }
+]

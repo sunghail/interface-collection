@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Adsorption UI archive · Synthetic preview</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;font:14px system-ui;color:#16335a;background:#f4f7fb}
+    header{min-height:64px;padding:10px 20px;display:flex;gap:16px;align-items:center;border-bottom:1px solid #d6deeb;flex-wrap:wrap}
+    strong{display:block}small{color:#52647d}button,a{font:inherit}button{border:1px solid #bbcce5;border-radius:8px;background:white;color:#16335a;padding:9px 14px;cursor:pointer}
+    #status{font-size:12px}iframe{display:block;width:100%;height:calc(100vh - 74px);min-height:640px;border:0}
+  </style>
+</head>
+<body>
+  <header><div><strong>Adsorption · UI archive</strong><small>합성 데이터 전용 미리보기 · 실험 결과 아님 · 브라우저 UI</small></div><button id="load" disabled>합성 샘플 3개 불러오기</button><a href="../README.md">기록</a><span id="status" role="status">화면 준비 중…</span></header>
+  <iframe id="app" src="../source/index.html" title="Adsorption Workbench UI"></iframe>
+  <script type="module">
+    import {syntheticRats} from './sample-data.js';
+    const frame=document.getElementById('app'),button=document.getElementById('load'),status=document.getElementById('status');
+    const timer=setInterval(()=>{
+      if(frame.contentDocument?.documentElement.dataset.appReady==='true'){
+        clearInterval(timer);button.disabled=false;status.textContent='샘플을 불러와 화면을 조작해 보세요.';
+      }
+    },150);
+    button.onclick=()=>{
+      const win=frame.contentWindow,dt=new win.DataTransfer();
+      for(const file of syntheticRats())dt.items.add(new win.File([file.text],file.name,{type:'text/plain'}));
+      const input=win.document.getElementById('files');input.files=dt.files;input.dispatchEvent(new win.Event('change'));
+      button.disabled=true;status.textContent='합성 데이터 3개 전달 완료 · 이 페이지를 새로 열면 다시 시작할 수 있습니다.';
+    };
+    if(location.protocol==='file:')status.textContent='HTTP 서버가 필요합니다. README의 실행 명령을 사용하세요.';
+  </script>
+</body>
+</html>

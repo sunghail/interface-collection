@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#1f2637">
+  <title>Adsorption · Workbench</title>
+  <link rel="preload" href="assets/fonts/SUIT-Variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="src/ui/style.css">
+  <link rel="stylesheet" href="src/ui/workspace.css">
+</head>
+<body>
+  <a class="skip-link" href="#analysis">분석 화면으로 이동</a>
+  <div class="app">
+    <aside class="sidebar" aria-label="측정 파일과 조건">
+      <div class="brand">
+        <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M9 29V11M9 29h23"/><path d="M12 25c6-1 5-10 11-11 3-.5 6 0 9-3"/><circle cx="15" cy="23" r="2"/><circle cx="23" cy="14" r="2"/><circle cx="31" cy="11.5" r="2"/></svg>
+        <h1>Adsorption<span>Workbench</span></h1>
+      </div>
+      <section class="library">
+        <div class="section-heading"><h2>측정 파일</h2><span class="file-count" id="count">0</span></div>
+        <div id="entries"></div>
+        <div id="filesempty" class="library-empty"><img src="assets/icons/folder-open.svg" alt=""><p>아직 측정 파일이 없습니다.</p><span>오른쪽 위 RAT 열기로 추가하세요.</span></div>
+      </section>
+      <details class="conditions" open>
+        <summary><span>측정 조건</span><svg class="disclosure" viewBox="0 0 12 12" aria-hidden="true"><path d="M3 4.5l3 3 3-3"/></svg></summary>
+        <p id="conditionsempty" class="hint">선택한 파일의 조건이 표시됩니다.</p>
+        <dl id="metadata"></dl>
+        <details class="diagnostics"><summary>데이터 상태</summary><div id="diagnostics"></div></details>
+      </details>
+      <div class="sidebar-note">로컬 처리 · 원본 보존</div>
+    </aside>
+    <div class="content">
+      <header class="app-header">
+        <div class="page-title"><h2>측정 분석</h2><div id="status" role="status">RAT 파일을 열거나 데이터 관리에서 Vault를 불러오세요.</div></div>
+        <div class="actions header-actions">
+          <button id="open-edits">편집본 열기</button>
+          <button id="save"><img src="assets/icons/device-floppy.svg" alt="">작업 저장</button>
+          <label class="button file-button"><img src="assets/icons/folder-open.svg" alt="">작업 열기<input id="restore" type="file" accept=".json" aria-label="작업 파일 열기"></label>
+          <label class="button primary file-button"><img src="assets/icons/file-upload.svg" alt="">RAT 열기<input id="files" type="file" accept=".rat" multiple aria-label="RAT 파일 열기"></label>
+        </div>
+      </header>
+      <main>
+        <section class="workspace" id="analysis" aria-label="측정 분석">
+          <div class="chart-panel">
+            <div class="toolbar">
+              <div class="tabs mode-tabs" role="group" aria-label="분석 보기"><button id="isotherm" class="selected" aria-pressed="true">평형 등온선</button><button id="kinetic" aria-pressed="false">Kinetics</button></div>
+              <div class="toolbar-right">
+                <div class="view-options"><label>구간 <select id="branch"><option value="adsorption">Adsorption (추정)</option><option value="desorption">Desorption (추정)</option><option value="all">전체</option><option value="unknown">미분류</option></select></label><label>단위 <select id="unit"><option>Torr</option><option selected>kPa</option><option>Pa</option></select></label></div>
+                <div class="preset-toolbar" aria-label="현재 화면 프리셋 저장"><div class="preset-target-row"><button id="preset-open" class="preset-target quiet" aria-haspopup="dialog" aria-controls="preset-dialog" aria-expanded="false">프리셋 선택</button><span id="preset-dirty" class="preset-dirty" role="img" aria-label="열린 좌표에서 변경됨" title="저장된 좌표 이후 변경이 있습니다. ＋로 새 좌표를 저장하세요." hidden></span><button id="preset-capture" class="preset-plus quiet" aria-label="현재 화면을 프리셋에 새 좌표로 저장" title="현재 화면을 선택한 프리셋에 새 좌표로 저장" disabled>＋</button></div><span id="preset-current" class="preset-current">이 브라우저에 저장</span></div>
+              </div>
+            </div>
+            <div class="axisbar" hidden><fieldset><legend>X축</legend><select id="xscale" aria-label="X축 스케일"><option value="linear">선형</option><option value="log">로그</option></select><input id="xmin" aria-label="X 최소" placeholder="최소 · 자동" type="number" step="any"><input id="xmax" aria-label="X 최대" placeholder="최대 · 자동" type="number" step="any"><input id="xstep" aria-label="X 눈금" placeholder="눈금 간격" type="number" step="any"></fieldset><fieldset><legend>Y축</legend><select id="yscale" aria-label="Y축 스케일"><option value="linear">선형</option><option value="log">로그</option></select><input id="ymin" aria-label="Y 최소" placeholder="최소 · 자동" type="number" step="any"><input id="ymax" aria-label="Y 최대" placeholder="최대 · 자동" type="number" step="any"><input id="ystep" aria-label="Y 눈금" placeholder="눈금 간격" type="number" step="any"></fieldset><button id="apply">적용</button></div>
+            <div id="kineticaxes" hidden>
+              <div class="axis-group"><label>Y값 <select id="kineticvalue" aria-label="Kinetics Y값"><option value="residual">Normalized response</option><option value="pressure">Pressure</option></select></label><label>Y축 <select id="kineticyscale" aria-label="Kinetics Y축"><option value="log">로그</option><option value="linear">선형</option></select></label></div>
+              <div class="axis-group time-group"><span>시간 <small>s</small></span><input id="tmin" type="number" step="any" aria-label="시간 시작 (초)" placeholder="시작 · 자동"><span class="range-separator">—</span><input id="tmax" type="number" step="any" aria-label="시간 끝 (초)" placeholder="끝 · 자동"><input id="tstep" type="number" step="any" aria-label="시간 눈금 간격 (초)" placeholder="간격 · 자동"><button id="timeapply">적용</button></div>
+            </div>
+            <details id="displaytools" hidden>
+              <summary><span>표시 설정</span><span class="summary-hint">표시 방법 · 일반 곡선 Trendline</span><svg class="disclosure" viewBox="0 0 12 12" aria-hidden="true"><path d="M3 4.5l3 3 3-3"/></svg></summary>
+              <div class="display-body">
+                <div id="displaymethods" class="tabs" role="group" aria-label="Kinetics 표시 방법"></div>
+                <div class="displayoptions"><label><input id="overalltrend" type="checkbox">일반 곡선 Trendline</label><label>Smoothing level <select id="displaystrength"><option value="1">1 · 약하게</option><option value="2" selected>2</option><option value="3">3</option><option value="4">4</option><option value="5">5 · 강하게</option></select></label><label><input id="displayoverlay" type="checkbox">원본 옅게 겹쳐 보기</label></div>
+                <p id="displaydescription"></p><div id="displaycounts" aria-live="polite"></div>
+              </div>
+            </details>
+            <div class="plottools"><div class="plot-title-actions"><span class="plot-label" id="plotlabel">Equilibrium isotherm</span><button id="open-editor" class="editor-launch" disabled>그래프 편집</button></div><div class="plot-actions"><span class="navigationhint">Ctrl + 휠 확대 · 드래그 이동</span><button id="reset" class="quiet" title="확대·이동을 초기화하고 전체 데이터를 표시합니다">그래프 초기화</button><button id="expandplot" class="quiet" aria-pressed="false">그래프 크게 보기</button></div></div>
+            <div class="plot-stage">
+              <div id="plot" tabindex="0" aria-label="측정 그래프"></div>
+              <div class="plot-empty" id="plotempty"><div class="empty-chart-mark"><img src="assets/icons/chart-line.svg" alt=""></div><h3>첫 번째 측정을 열어보세요.</h3><p>등온선부터 시간에 따른 변화까지,<br>하나의 작업 공간에서 살펴볼 수 있습니다.</p></div>
+            </div>
+            <div class="chart-footer"><div id="legend"></div><div id="plot-notes"></div><div id="hover">점 위에 마우스를 올리면 측정값이 표시됩니다.</div></div>
+          </div>
+          <section class="data-panel" aria-label="측정 데이터 표">
+            <div class="tabletop"><div class="table-heading"><h2 id="tabletitle">평형점</h2><span id="selection" class="hint"></span><button id="table-options-open" class="quiet" aria-haspopup="dialog" hidden>표시 설정</button></div><div class="actions export-actions"><span>내보내기</span><button id="csv">CSV</button><button id="svg">SVG</button><button id="png">PNG</button><button id="pdf">PDF / 인쇄</button></div></div>
+            <div class="tablewrap"><table><thead id="thead"></thead><tbody id="tbody"></tbody></table></div>
+          </section>
+        </section>
+      </main>
+      <footer><span>Adsorption <span class="footer-divider">/</span> Workbench</span><span>로컬 처리 · 원본 보존</span></footer>
+    </div>
+  </div>
+  <dialog id="preset-dialog" aria-labelledby="preset-dialog-title" class="preset-dialog">
+    <div class="preset-dialog-head"><h2 id="preset-dialog-title">프리셋 관리</h2><button id="preset-close" class="quiet" aria-label="프리셋 관리창 닫기">닫기</button></div>
+    <form id="preset-form" class="preset-form" hidden><label id="preset-form-label" for="preset-name">이름</label><div class="preset-form-row"><input id="preset-name" type="text" required maxlength="100" autocomplete="off"><button id="preset-form-save" type="submit">완료</button><button id="preset-form-cancel" type="button" class="quiet">취소</button></div><p id="preset-form-error" class="preset-error" role="alert"></p></form>
+    <div class="preset-manager-body"><div class="preset-list-pane"><div class="preset-list-head"><span>프리셋</span><button id="preset-create" class="quiet">＋ 추가</button></div><div id="preset-list"></div></div><div id="preset-coordinates" class="preset-coordinates"></div></div>
+    <div class="preset-manager-foot"><span id="preset-manager-status" role="status" aria-live="polite">이 브라우저에 저장</span><button id="preset-undo" class="quiet" hidden>삭제 실행 취소</button></div>
+  </dialog>
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>

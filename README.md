@@ -9,6 +9,12 @@
 
 **빠르게 찾기:** [유형별](catalog/by-type.md) · [태그별](catalog/by-tag.md)
 
+## 등록된 My UI
+
+**[Adsorption Workbench · Full UI](my-ui/adsorption-workbench/full-workbench/README.md)** — 데이터 관리, Isotherm/Kinetics, 그래프 편집, 비교분석, Fitting 조건표, 설정. 실제 화면 7개와 웹 UI 소스·합성 데이터 preview를 보관합니다.
+
+![Adsorption Workbench — 합성 데이터 UI preview](my-ui/adsorption-workbench/full-workbench/screenshots/02-isotherm.png)
+
 ## 구조
 
 ```text
@@ -71,5 +77,5 @@ Windows에서는 환경에 따라 `py tools/build_catalog.py`도 사용할 수 �
 
 ## 현재 상태
 
-2026-09-28: 아카이브 기본 구조·템플릿·색인 생성 도구 구성. 실제 UI는 아직 등록하지 않았습니다.
+2026-09-28: 아카이브 기본 구조 구성 및 Adsorption Workbench V1 웹 UI 최초 등록. My UI 1개, Reference UI 0개. 실측 데이터와 사용자 Vault는 포함하지 않습니다.
 이 저장소 전체에 일괄 라이선스를 부여하지 않았습니다. 각 항목의 권리 기록을 확인하세요.

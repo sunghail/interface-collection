@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "my--adsorption-workbench--full-workbench",
+  "title": "Adsorption Workbench · Full UI",
+  "kind": "my",
+  "program": "adsorption-workbench",
+  "author": "sunghail",
+  "primary_type": "full-layout",
+  "types": [
+    "full-layout",
+    "sidebar-navigation",
+    "data-visualization",
+    "modal-dialog",
+    "table",
+    "settings",
+    "form-input"
+  ],
+  "tags": [
+    "light",
+    "desktop",
+    "scientific",
+    "graph-editor",
+    "drag-drop",
+    "local-storage",
+    "synthetic-preview"
+  ],
+  "frameworks": [
+    "vanilla-js",
+    "react",
+    "bklit-ui",
+    "motion",
+    "visx"
+  ],
+  "status": "draft",
+  "created": "2026-09-28",
+  "updated": "2026-09-28",
+  "revision": "v1-local-2026-09-28",
+  "preview_image": "screenshots/02-isotherm.png",
+  "preview_url": null,
+  "source": {
+    "mode": "excerpt",
+    "path": "source",
+    "url": "https://github.com/sunghail/Adsorption_analysis_microtrac_RAT",
+    "revision": "local-v1-snapshot-2026-09-28; source-manifest.json"
+  },
+  "rights": {
+    "status": "unverified",
+    "license": "UNSPECIFIED",
+    "evidence": "licenses/README.md",
+    "scope": "직접 작성한 웹 UI 소스와 합성 preview·캡처. 개인 코드 재사용 라이선스 미정; 외부 코드·자산 기존 라이선스 고지 포함."
+  }
+}

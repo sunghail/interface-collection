@@ -1,0 +1,19 @@
+{
+  "name": "adsorption-workbench",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "@visx/curve": "4.0.1-alpha.0",
+    "@visx/event": "4.0.1-alpha.0",
+    "@visx/scale": "4.0.1-alpha.0",
+    "@visx/shape": "4.0.1-alpha.0",
+    "d3-shape": "3.2.0",
+    "esbuild": "0.25.12",
+    "motion": "12.27.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  }
+}

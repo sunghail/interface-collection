@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "my--program-slug--ui-slug",
+  "title": "UI title",
+  "kind": "my",
+  "primary_type": "full-layout",
+  "types": [
+    "full-layout"
+  ],
+  "tags": [
+    "light",
+    "desktop",
+    "screenshot-pending"
+  ],
+  "frameworks": [],
+  "status": "draft",
+  "created": "YYYY-MM-DD",
+  "updated": "YYYY-MM-DD",
+  "revision": "draft",
+  "preview_image": null,
+  "preview_url": null,
+  "source": {
+    "mode": "link-only",
+    "path": null,
+    "url": null,
+    "revision": null
+  },
+  "rights": {
+    "status": "unverified",
+    "license": "UNSPECIFIED",
+    "evidence": null,
+    "scope": "링크와 직접 작성한 메모만 보관. 외부 파일 미포함."
+  },
+  "program": "program-slug",
+  "author": "YOUR_NAME"
+}
+

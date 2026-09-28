@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "ref--creator-slug--ui-slug",
+  "title": "Reference title",
+  "kind": "reference",
+  "primary_type": "sidebar-navigation",
+  "types": [
+    "sidebar-navigation"
+  ],
+  "tags": [
+    "light",
+    "desktop",
+    "screenshot-pending"
+  ],
+  "frameworks": [],
+  "status": "unreviewed",
+  "created": "YYYY-MM-DD",
+  "updated": "YYYY-MM-DD",
+  "revision": "draft",
+  "preview_image": null,
+  "preview_url": null,
+  "source": {
+    "mode": "link-only",
+    "path": null,
+    "url": null,
+    "revision": null
+  },
+  "rights": {
+    "status": "unverified",
+    "license": "UNKNOWN",
+    "evidence": null,
+    "scope": "링크와 직접 작성한 메모만 보관. 외부 파일 미포함."
+  },
+  "origin": {
+    "url": "https://example.com/replace-with-original",
+    "creator": "確認前",
+    "creator_url": null,
+    "repository": null,
+    "revision": null,
+    "checked": "YYYY-MM-DD"
+  }
+}
+

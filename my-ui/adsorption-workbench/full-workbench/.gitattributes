@@ -1,0 +1,2 @@
+# Keep the source snapshot byte-for-byte identical to source-manifest.json.
+source/** -text

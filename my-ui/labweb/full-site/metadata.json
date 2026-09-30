@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "my--labweb--full-site",
+  "title": "LabWeb · Full Site",
+  "kind": "my",
+  "program": "labweb",
+  "author": "sunghail",
+  "primary_type": "full-layout",
+  "types": [
+    "full-layout",
+    "sidebar-navigation",
+    "table",
+    "other"
+  ],
+  "tags": [
+    "light",
+    "dark",
+    "desktop",
+    "responsive",
+    "file-browser",
+    "drag-drop",
+    "synthetic-preview"
+  ],
+  "frameworks": [
+    "nextjs",
+    "react",
+    "tailwindcss",
+    "lucide-react"
+  ],
+  "status": "draft",
+  "created": "2026-09-30",
+  "updated": "2026-09-30",
+  "revision": "labweb-2c2b558",
+  "preview_image": "screenshots/01-home.png",
+  "preview_url": null,
+  "source": {
+    "mode": "excerpt",
+    "path": "source",
+    "url": "https://github.com/sunghail/labweb",
+    "revision": "2c2b558b4337ee240d2133a9cdce898373898fed; source-manifest.json"
+  },
+  "rights": {
+    "status": "unverified",
+    "license": "UNSPECIFIED",
+    "evidence": "licenses/README.md",
+    "scope": "직접 작성한 파일 브라우저 UI 소스 발췌와 캡처 재현 스크립트, 합성 데이터로 찍은 실제 화면. 내 코드의 재사용 라이선스 미정. 캡처에 보이는 사이트 일러스트·로고는 출처 미확인이며 재사용 대상 아님."
+  }
+}

@@ -15,6 +15,10 @@
 
 ![Adsorption Workbench — 합성 데이터 UI preview](my-ui/adsorption-workbench/full-workbench/screenshots/02-isotherm.png)
 
+**[LabWeb · Full Site](my-ui/labweb/full-site/README.md)** — 연구실 소개, 게시판, 연구자료 파일 브라우저, 랩미팅, 협업공간 버전 비교, 캘린더, 다크 모드·모바일 폭. 합성 데이터로 찍은 실제 화면 13개와 파일 브라우저 UI 소스 발췌를 보관합니다.
+
+![LabWeb — 연구자료 파일 브라우저 (합성 데이터)](my-ui/labweb/full-site/screenshots/07-partition-folder.png)
+
 ## 구조
 
 ```text
@@ -81,5 +85,7 @@ Windows에서는 환경에 따라 `py tools/build_catalog.py`도 사용할 수 �
 
 ## 현재 상태
 
-2026-09-28: 아카이브 기본 구조 구성 및 Adsorption Workbench V1 웹 UI 최초 등록. My UI 1개, Reference UI 0개. 실측 데이터와 사용자 Vault는 포함하지 않습니다.
+2026-09-28: 아카이브 기본 구조 구성 및 Adsorption Workbench V1 웹 UI 최초 등록. 실측 데이터와 사용자 Vault는 포함하지 않습니다.
+2026-09-30: LabWeb 전체 사이트 UI 등록. 실제 연구실 데이터 대신 합성 데이터로 캡처했습니다.
+현재 My UI 2개, Reference UI 0개.
 이 저장소 전체에 일괄 라이선스를 부여하지 않았습니다. 각 항목의 권리 기록을 확인하세요.

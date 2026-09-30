@@ -19,6 +19,7 @@
 | Preview | UI · ID | 유형 | 태그 | Framework / library | 상태 |
 | --- | --- | --- | --- | --- | --- |
 | ![Adsorption Workbench · Full UI](../my-ui/adsorption-workbench/full-workbench/screenshots/02-isotherm.png) | [Adsorption Workbench · Full UI](../my-ui/adsorption-workbench/full-workbench/README.md)<br>my--adsorption-workbench--full-workbench | full-layout, sidebar-navigation, data-visualization, modal-dialog, table, settings, form-input | light, desktop, scientific, graph-editor, drag-drop, local-storage, synthetic-preview | vanilla-js, react, bklit-ui, motion, visx | draft |
+| ![LabWeb · Full Site](../my-ui/labweb/full-site/screenshots/01-home.png) | [LabWeb · Full Site](../my-ui/labweb/full-site/README.md)<br>my--labweb--full-site | full-layout, sidebar-navigation, table, other | light, dark, desktop, responsive, file-browser, drag-drop, synthetic-preview | nextjs, react, tailwindcss, lucide-react | draft |
 
 ### Reference UI
 
@@ -79,6 +80,7 @@
 | Preview | UI · ID | 유형 | 태그 | Framework / library | 상태 |
 | --- | --- | --- | --- | --- | --- |
 | ![Adsorption Workbench · Full UI](../my-ui/adsorption-workbench/full-workbench/screenshots/02-isotherm.png) | [Adsorption Workbench · Full UI](../my-ui/adsorption-workbench/full-workbench/README.md)<br>my--adsorption-workbench--full-workbench | full-layout, sidebar-navigation, data-visualization, modal-dialog, table, settings, form-input | light, desktop, scientific, graph-editor, drag-drop, local-storage, synthetic-preview | vanilla-js, react, bklit-ui, motion, visx | draft |
+| ![LabWeb · Full Site](../my-ui/labweb/full-site/screenshots/01-home.png) | [LabWeb · Full Site](../my-ui/labweb/full-site/README.md)<br>my--labweb--full-site | full-layout, sidebar-navigation, table, other | light, dark, desktop, responsive, file-browser, drag-drop, synthetic-preview | nextjs, react, tailwindcss, lucide-react | draft |
 
 ### Reference UI
 
@@ -91,6 +93,7 @@
 | Preview | UI · ID | 유형 | 태그 | Framework / library | 상태 |
 | --- | --- | --- | --- | --- | --- |
 | ![Adsorption Workbench · Full UI](../my-ui/adsorption-workbench/full-workbench/screenshots/02-isotherm.png) | [Adsorption Workbench · Full UI](../my-ui/adsorption-workbench/full-workbench/README.md)<br>my--adsorption-workbench--full-workbench | full-layout, sidebar-navigation, data-visualization, modal-dialog, table, settings, form-input | light, desktop, scientific, graph-editor, drag-drop, local-storage, synthetic-preview | vanilla-js, react, bklit-ui, motion, visx | draft |
+| ![LabWeb · Full Site](../my-ui/labweb/full-site/screenshots/01-home.png) | [LabWeb · Full Site](../my-ui/labweb/full-site/README.md)<br>my--labweb--full-site | full-layout, sidebar-navigation, table, other | light, dark, desktop, responsive, file-browser, drag-drop, synthetic-preview | nextjs, react, tailwindcss, lucide-react | draft |
 
 ### Reference UI
 
@@ -100,7 +103,9 @@
 
 ### My UI
 
-아직 등록된 UI가 없습니다.
+| Preview | UI · ID | 유형 | 태그 | Framework / library | 상태 |
+| --- | --- | --- | --- | --- | --- |
+| ![LabWeb · Full Site](../my-ui/labweb/full-site/screenshots/01-home.png) | [LabWeb · Full Site](../my-ui/labweb/full-site/README.md)<br>my--labweb--full-site | full-layout, sidebar-navigation, table, other | light, dark, desktop, responsive, file-browser, drag-drop, synthetic-preview | nextjs, react, tailwindcss, lucide-react | draft |
 
 ### Reference UI
 

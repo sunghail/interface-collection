@@ -2,7 +2,10 @@
 
 내가 만든 UI의 작업 기록과 재사용 라이브러리입니다.
 
-현재 프로그램: [Adsorption Workbench](adsorption-workbench/README.md) — 전체 UI와 실제 화면 7개, 합성 데이터 preview.
+현재 프로그램:
+
+- [Adsorption Workbench](adsorption-workbench/README.md) — 전체 UI와 실제 화면 7개, 합성 데이터 preview.
+- [LabWeb](labweb/README.md) — 연구실 포털 전체 사이트의 실제 화면 13개(합성 데이터), 파일 브라우저 UI 소스 발췌.
 
 - 저장 위치: `my-ui/<program-slug>/<ui-slug>/`
 - 프로그램 설명: `my-ui/<program-slug>/README.md`

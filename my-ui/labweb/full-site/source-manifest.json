@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "source_repository": "https://github.com/sunghail/labweb",
+  "source_commit": "2c2b558b4337ee240d2133a9cdce898373898fed",
+  "line_endings": "원본 커밋 blob 바이트 그대로(CRLF). 항목 .gitattributes의 source/** -text로 변환을 막음.",
+  "files": [
+    {
+      "path": "source/src/components/materials/FolderContents.tsx",
+      "original_path": "src/components/materials/FolderContents.tsx",
+      "bytes": 13054,
+      "sha256": "3d838343f89a38f6aaca18592842cfb3207015f55d84432531cd28a8b11e3e89",
+      "git_blob": "b5e97457038d2ebb4a36b8d69d68a47f881c983a",
+      "identical_to_commit": true
+    },
+    {
+      "path": "source/src/components/materials/PartitionBrowser.tsx",
+      "original_path": "src/components/materials/PartitionBrowser.tsx",
+      "bytes": 18534,
+      "sha256": "fb75dfca85113aaed3029024aeb33c21b5709782f5b61a4c509b0defcb8505c5",
+      "git_blob": "2c59b825ccac562f05c4f7ca72d2cc3b1c541001",
+      "identical_to_commit": true
+    },
+    {
+      "path": "source/src/components/workspace/resource/FileTree.tsx",
+      "original_path": "src/components/workspace/resource/FileTree.tsx",
+      "bytes": 7557,
+      "sha256": "36d82f91b5172eb03a8eb5412e6462d31785f72425f32149f8846688a9c92d54",
+      "git_blob": "ac27c9115ce4b5489f74c23918fe4a117b1a5c07",
+      "identical_to_commit": true
+    },
+    {
+      "path": "source/src/components/workspace/resource/types.ts",
+      "original_path": "src/components/workspace/resource/types.ts",
+      "bytes": 1664,
+      "sha256": "05b00f06a4efccb15e468b38c32dcd7d55b75a16fc6526b1bfb4694880f69d08",
+      "git_blob": "734b1c7aa35e6c823fa048275ea26b99cd2944f5",
+      "identical_to_commit": true
+    }
+  ]
+}

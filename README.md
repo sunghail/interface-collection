@@ -68,6 +68,10 @@ Windows에서는 환경에 따라 `py tools/build_catalog.py`도 사용할 수 �
 
 ## 운영 규칙
 
+- **에이전트 등록 스킬:** [archive-interface-ui](skills/archive-interface-ui/SKILL.md). 원본 프로그램 선택부터 자료 정리·검증·GitHub 게시까지 안내합니다.
+- 다른 PC에서는 `skills/archive-interface-ui` 폴더 전체를 `$CODEX_HOME/skills/`(미설정 시 `~/.codex/skills/`)에 설치합니다. 기존 동일 이름의 스킬이 있다면 내용을 비교한 뒤 갱신하세요.
+- 에이전트에게 “`$archive-interface-ui`를 사용해서 현재 프로그램 UI를 이 저장소에 양식대로 올려줘”라고 요청합니다. 기존 세션에서 목록에 보이지 않으면 체크아웃의 `skills/archive-interface-ui/SKILL.md` 절대 경로를 전달해 읽도록 하면 됩니다.
+
 - [UI 유형 체계](docs/taxonomy.md): Dashboard부터 기타까지 공통 분류.
 - [이름·태그·이미지·소스 저장](docs/conventions.md): 일관된 검색과 재사용.
 - [출처·라이선스 기록](docs/rights.md): 항목별 권한과 포함 범위 구분.

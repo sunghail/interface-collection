@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Archive · Interface Collection"
+  short_description: "프로그램 UI와 외부 참고 UI를 정리하고 GitHub 아카이브에 등록합니다"
+  default_prompt: "$archive-interface-ui를 사용해서 현재 프로그램 UI를 interface-collection 양식에 맞춰 정리하고 GitHub에 올려줘."

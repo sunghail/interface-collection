@@ -13,3 +13,9 @@
 | Preview | UI · ID | 유형 | 태그 | Framework / library | 상태 |
 | --- | --- | --- | --- | --- | --- |
 | ![LabWeb · Full Site](../my-ui/labweb/full-site/screenshots/01-home.png) | [LabWeb · Full Site](../my-ui/labweb/full-site/README.md)<br>my--labweb--full-site | full-layout, sidebar-navigation, table, other | light, dark, desktop, responsive, file-browser, drag-drop, synthetic-preview | nextjs, react, tailwindcss, lucide-react | draft |
+
+## [reactor-studio](../my-ui/reactor-studio/README.md)
+
+| Preview | UI · ID | 유형 | 태그 | Framework / library | 상태 |
+| --- | --- | --- | --- | --- | --- |
+| ![Reactor Studio · Full Studio](../my-ui/reactor-studio/full-studio/screenshots/01-process-summary.png) | [Reactor Studio · Full Studio](../my-ui/reactor-studio/full-studio/README.md)<br>my--reactor-studio--full-studio | full-layout, dashboard, data-visualization, form-input, settings, table | light, desktop, scientific, property-sheet, flowsheet, local-storage, synthetic-preview | vanilla-js, svg, python-http-server, pywebview | draft |

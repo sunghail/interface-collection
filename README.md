@@ -19,6 +19,10 @@
 
 ![LabWeb — 연구자료 파일 브라우저 (합성 데이터)](my-ui/labweb/full-site/screenshots/07-partition-folder.png)
 
+**[Reactor Studio · Full Studio](my-ui/reactor-studio/full-studio/README.md)** — 폐식용유 → 바이오디젤 전이에스테르화 반응기(산촉매 bed + CaO bed) 설계: 공정 흐름도, 속성 시트, 단일 bed 분포, 비누화 촉매 수명, 속도 피팅, 판정 기준, 시나리오 비교, 최적화. 실제 화면 13개와 웹 UI 소스 전체를 보관합니다.
+
+![Reactor Studio — 공정 요약 (기본 조건)](my-ui/reactor-studio/full-studio/screenshots/01-process-summary.png)
+
 ## 구조
 
 ```text
@@ -87,5 +91,6 @@ Windows에서는 환경에 따라 `py tools/build_catalog.py`도 사용할 수 �
 
 2026-09-28: 아카이브 기본 구조 구성 및 Adsorption Workbench V1 웹 UI 최초 등록. 실측 데이터와 사용자 Vault는 포함하지 않습니다.
 2026-09-30: LabWeb 전체 사이트 UI 등록. 실제 연구실 데이터 대신 합성 데이터로 캡처했습니다.
-현재 My UI 2개, Reference UI 0개.
+2026-10-28: Reactor Studio(바이오디젤 전이에스테르화 반응기 설계) 전체 UI 등록. 프로그램 기본 조건과 합성 예제 데이터로 캡처했습니다.
+현재 My UI 3개, Reference UI 0개.
 이 저장소 전체에 일괄 라이선스를 부여하지 않았습니다. 각 항목의 권리 기록을 확인하세요.

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "my--reactor-studio--full-studio",
+  "title": "Reactor Studio · Full Studio",
+  "kind": "my",
+  "program": "reactor-studio",
+  "author": "sunghail",
+  "primary_type": "full-layout",
+  "types": [
+    "full-layout",
+    "dashboard",
+    "data-visualization",
+    "form-input",
+    "settings",
+    "table"
+  ],
+  "tags": [
+    "light",
+    "desktop",
+    "scientific",
+    "property-sheet",
+    "flowsheet",
+    "local-storage",
+    "synthetic-preview"
+  ],
+  "frameworks": [
+    "vanilla-js",
+    "svg",
+    "python-http-server",
+    "pywebview"
+  ],
+  "status": "draft",
+  "created": "2026-10-28",
+  "updated": "2026-10-28",
+  "revision": "local-2026-10-28-model-919b03253bbc",
+  "preview_image": "screenshots/01-process-summary.png",
+  "preview_url": null,
+  "source": {
+    "mode": "excerpt",
+    "path": "source",
+    "url": null,
+    "revision": "local snapshot 2026-10-28 (비 Git 프로젝트, 모델 버전 919b03253bbc); source-manifest.json"
+  },
+  "rights": {
+    "status": "unverified",
+    "license": "UNSPECIFIED",
+    "evidence": "licenses/README.md",
+    "scope": "직접 작성한 웹 UI 소스(HTML·CSS·JS) 전체와 캡처 재현 스크립트, 프로그램 기본 조건·합성 예제 데이터로 찍은 실제 화면. 내 코드의 재사용 라이선스 미정. 계산 backend(Python 모델)는 미포함."
+  }
+}

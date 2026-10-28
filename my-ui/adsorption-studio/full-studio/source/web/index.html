@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adsorption Studio</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='9' y='3' width='14' height='26' rx='6' fill='%232563eb'/><rect x='11' y='9' width='10' height='14' fill='%23bfdbfe'/></svg>">
+<link rel="stylesheet" href="css/studio.css">
+</head>
+<body>
+<header class="topbar">
+  <button id="panel-toggle" class="icon-btn panel-toggle" aria-label="조건 패널 열기">☰</button>
+  <div class="brand" title="목질계 가수분해액 · 액상 흡착 (30 °C)">
+    <svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><rect x="9" y="3" width="14" height="26" rx="6"/><rect x="11" y="9" width="10" height="14" class="logo-fill"/></svg>
+    <b>Adsorption Studio</b>
+  </div>
+  <div class="top-actions">
+    <span id="status" class="status" role="status" aria-live="polite">…</span>
+    <button id="run" class="btn primary small" title="지금 조건으로 계산 (Ctrl+Enter)">계산</button>
+    <div class="menu-wrap">
+      <button id="menu-btn" class="icon-btn menu-btn" aria-haspopup="menu" aria-label="메뉴" title="설정 · 내보내기 · 용어">⋯</button>
+      <div id="menu" class="menu" role="menu">
+        <label class="menu-check"><input type="checkbox" id="auto-switch"> 자동 계산 <small>조건을 바꾸면 곧바로 다시 계산</small></label>
+        <button role="menuitem" data-action="settings">⚙ 모든 설정</button>
+        <button role="menuitem" data-action="glossary">기호 · 용어 설명</button>
+        <hr>
+        <button role="menuitem" data-action="md">보고서용 요약 (Markdown)</button>
+        <button role="menuitem" data-action="csv">시간별 출구 (CSV)</button>
+        <button role="menuitem" data-action="json">현재 조건 저장 (JSON)</button>
+        <button role="menuitem" data-action="load">조건 불러오기 (JSON)</button>
+        <hr>
+        <button role="menuitem" data-action="project-save">프로젝트 저장 — 성분·흡착제·시험 데이터 (JSON)</button>
+        <button role="menuitem" data-action="project-load">프로젝트 불러오기 (JSON)</button>
+        <button role="menuitem" data-action="project-reset">예시 프로젝트로 되돌리기</button>
+        <hr>
+        <button role="menuitem" data-action="reset">모든 조건 기본값으로</button>
+        <button role="menuitem" data-action="cache">저장된 계산 결과 지우기</button>
+      </div>
+    </div>
+    <div class="mode-toggle" role="radiogroup" aria-label="보기 단위">
+      <button role="radio" data-mode="guide" title="처음 쓰는 사람을 위한 5단계">단계별</button>
+      <button role="radio" data-mode="bed" title="고급: 흡착제 하나와 bed 하나의 모든 화면">단일 bed</button>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar" aria-label="조건">
+    <div id="param-panel"></div>
+    <footer class="sidebar-foot"><span id="version"></span></footer>
+  </aside>
+  <main class="main">
+    <div id="viewbar" class="viewbar"><div id="viewbar-left" class="viewbar-left"></div><div id="viewbar-right" class="viewbar-right"></div></div>
+    <div id="kpis"></div>
+    <div id="banner"></div>
+    <div id="view"></div>
+  </main>
+</div>
+
+<div id="settings" class="drawer settings-drawer" aria-hidden="true">
+  <div class="drawer-backdrop"></div>
+  <aside class="drawer-panel" role="dialog" aria-label="모든 설정">
+    <div class="drawer-head"><h2>모든 설정</h2><div class="settings-head-tools"></div><button class="icon-btn close" aria-label="닫기">✕</button></div>
+    <div class="settings-tabs-wrap"></div>
+    <div class="drawer-body settings-body"></div>
+  </aside>
+</div>
+
+<div id="drawer" class="drawer" aria-hidden="true">
+  <div class="drawer-backdrop"></div>
+  <aside class="drawer-panel" role="dialog" aria-label="용어">
+    <div class="drawer-head"><h2>기호 · 용어</h2><button class="icon-btn close" aria-label="닫기">✕</button></div>
+    <div class="drawer-body"></div>
+  </aside>
+</div>
+
+<div id="modal" class="modal" aria-hidden="true">
+  <div class="modal-backdrop"></div>
+  <div class="modal-dialog" role="dialog">
+    <button class="icon-btn close" aria-label="닫기">✕</button>
+    <div class="modal-body"></div>
+  </div>
+</div>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<input type="file" id="import-params" accept="application/json,.json" hidden>
+<input type="file" id="import-project" accept="application/json,.json" hidden>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

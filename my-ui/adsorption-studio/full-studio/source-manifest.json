@@ -1,0 +1,153 @@
+{
+  "snapshot": "03_Liquid_phase_adsorption/reactor_studio/web (Adsorption Studio), local snapshot 2026-10-28 (model version b6ac074a31f8); the project is not a Git repository",
+  "original_root": "03_Liquid_phase_adsorption/reactor_studio/web",
+  "line_endings": "CRLF as in the original; .gitattributes keeps source/** byte-for-byte",
+  "modified": [],
+  "files": [
+    {
+      "path": "source/web/css/studio.css",
+      "bytes": 74265,
+      "sha256": "a93a11b37c47930b9c128e1b8d22cd42beabda49e29e40b8ff90f80c33da9c49"
+    },
+    {
+      "path": "source/web/index.html",
+      "bytes": 4805,
+      "sha256": "9a8ae43bc43fea5df87f5229de63a3a3631b842791444d8027b71f7743255554"
+    },
+    {
+      "path": "source/web/js/api.js",
+      "bytes": 2265,
+      "sha256": "65490be47b0316cabf2104d67bd203a65c0c24a1893ca06f14d54d7b7964f364"
+    },
+    {
+      "path": "source/web/js/chart.js",
+      "bytes": 15323,
+      "sha256": "2c3f590985c29f1d58f379ec5c7fb328bd8362acf465352cc1f407c413ca3721"
+    },
+    {
+      "path": "source/web/js/exporter.js",
+      "bytes": 14458,
+      "sha256": "457590cb6a583726e5203d067bb7de12875785e0f21fb8ae2eb414238cb5a04b"
+    },
+    {
+      "path": "source/web/js/flowsheet.js",
+      "bytes": 4786,
+      "sha256": "f638239a8cb699915af130698d397932f518fb55375c51a70e0df3829a13afae"
+    },
+    {
+      "path": "source/web/js/kpis.js",
+      "bytes": 2239,
+      "sha256": "5ed244988d4dc975e1a6264f79ac773872388a5836a22db6bd16cd917d672be8"
+    },
+    {
+      "path": "source/web/js/main.js",
+      "bytes": 23081,
+      "sha256": "c3c480b558ad08b1f0b5a300b54b74798b644672ab8fc2fa9b1beef156b202f8"
+    },
+    {
+      "path": "source/web/js/modal.js",
+      "bytes": 899,
+      "sha256": "250502b4b86d5c81371c4168cce4cad97383e4d2efc2b43abd47b5f62766b4ea"
+    },
+    {
+      "path": "source/web/js/scenarios.js",
+      "bytes": 5548,
+      "sha256": "10f59c5bfcae5b18cac2a876beef734eab8915aba17d0df716eab04533d15798"
+    },
+    {
+      "path": "source/web/js/settings.js",
+      "bytes": 26472,
+      "sha256": "963d7d9e8dab7a23188a9579590b1a37551cce3cdba4a7068ce3ddd376f7784b"
+    },
+    {
+      "path": "source/web/js/store.js",
+      "bytes": 12151,
+      "sha256": "7bb4f067f990b2f32c5312f7d80de76b0a60d634f6e4d7eeb435b9946a229643"
+    },
+    {
+      "path": "source/web/js/theme.js",
+      "bytes": 1137,
+      "sha256": "c805511cd104a775bf73865a9129f77c8774e55a46b98c561974082401ffbd17"
+    },
+    {
+      "path": "source/web/js/train.js",
+      "bytes": 6211,
+      "sha256": "4d443de2160882f1f888297f05f5d4475e41cf1ad64cf5483df79f048f4f368e"
+    },
+    {
+      "path": "source/web/js/util.js",
+      "bytes": 5192,
+      "sha256": "f071d1d925c4a60f148f6ae644793351783599b05e4268383622ca382daec6bc"
+    },
+    {
+      "path": "source/web/js/views/batch.js",
+      "bytes": 4856,
+      "sha256": "78c8bf8f801fd60abe5c852f9c3518cc28fb59b2203c63d68737cbf1dff40902"
+    },
+    {
+      "path": "source/web/js/views/bed.js",
+      "bytes": 3006,
+      "sha256": "dfbc21e271385de32a9db52a432d4af83293479d2c2aec33943fd2acf357d0c9"
+    },
+    {
+      "path": "source/web/js/views/common.js",
+      "bytes": 18808,
+      "sha256": "7d9cb609d34b76663225f159f226375cb2c80ecd9ef3dba7d8efc7889c54af94"
+    },
+    {
+      "path": "source/web/js/views/compare.js",
+      "bytes": 6234,
+      "sha256": "e0c8da252fc5d07ddf407b40d00c0988ac8dc323bf81cc1f6788bba164394998"
+    },
+    {
+      "path": "source/web/js/views/criteria.js",
+      "bytes": 6107,
+      "sha256": "92f4875dba9d93c3cde898869662bf97905e1b78936e46b042dfca8dc69ac54a"
+    },
+    {
+      "path": "source/web/js/views/fitting.js",
+      "bytes": 9483,
+      "sha256": "7dd8e4644dc05fde3cf7898229eb5b3510ecd84cb9a4679420d9d9fcbd941d5b"
+    },
+    {
+      "path": "source/web/js/views/guide.js",
+      "bytes": 38914,
+      "sha256": "f493793a2370992f13a4ffd599a132b0a8042bd62ceebc997a926f626a973863"
+    },
+    {
+      "path": "source/web/js/views/help.js",
+      "bytes": 34128,
+      "sha256": "ff872c588dd4eb4abe06d4ca5749d63856b76aeb2d2e9fedd717a6f08518a7c5"
+    },
+    {
+      "path": "source/web/js/views/input.js",
+      "bytes": 31131,
+      "sha256": "470f6cb442d230403377004070861cf2eba275620d03a24b57442c070dffd3c8"
+    },
+    {
+      "path": "source/web/js/views/optimize.js",
+      "bytes": 23220,
+      "sha256": "c0aba849af371b373964afaa2ea954e3ec2b2937ea3b379b6daa10c920e6724f"
+    },
+    {
+      "path": "source/web/js/views/process.js",
+      "bytes": 5216,
+      "sha256": "cc8ad957a444c2f9377361029e99a2b9fe60e651ada6990fcabbf4caa80c0b7a"
+    },
+    {
+      "path": "source/web/js/views/screen.js",
+      "bytes": 6930,
+      "sha256": "fdb64862341bf96f592bd39512fb620250f4029dcff0783523917fa098ad3e33"
+    },
+    {
+      "path": "source/web/js/views/summary.js",
+      "bytes": 12981,
+      "sha256": "c45f895380e24b589ba4d05833f25a10338d558166726db1df86a2e97733bf67"
+    },
+    {
+      "path": "source/web/js/views/tryout.js",
+      "bytes": 22347,
+      "sha256": "f67747add6b66f0d2d91c1aa3a49efc0f7b9ff4d952d94d00458ef1057d188e1"
+    }
+  ]
+}

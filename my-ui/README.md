@@ -7,6 +7,7 @@
 - [Adsorption Workbench](adsorption-workbench/README.md) — 전체 UI와 실제 화면 7개, 합성 데이터 preview.
 - [LabWeb](labweb/README.md) — 연구실 포털 전체 사이트의 실제 화면 13개(합성 데이터), 파일 브라우저 UI 소스 발췌.
 - [Reactor Studio](reactor-studio/README.md) — 바이오디젤 전이에스테르화 packed bed 설계 프로그램의 실제 화면 13개(기본 조건·합성 예제), 웹 UI 소스 전체.
+- [Adsorption Studio](adsorption-studio/README.md) — Reactor Studio를 바탕으로 만든 가수분해액 액상 흡착(회분·packed bed) 설계 프로그램: 5단계 안내 화면 포함 실제 화면 14개(예시 데이터·문헌 프리셋), 웹 UI 소스 전체.
 
 - 저장 위치: `my-ui/<program-slug>/<ui-slug>/`
 - 프로그램 설명: `my-ui/<program-slug>/README.md`

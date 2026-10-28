@@ -23,6 +23,10 @@
 
 ![Reactor Studio — 공정 요약 (기본 조건)](my-ui/reactor-studio/full-studio/screenshots/01-process-summary.png)
 
+**[Adsorption Studio · Full Studio](my-ui/adsorption-studio/full-studio/README.md)** — 목질계 가수분해액에서 발효 저해물질을 흡착으로 제거하는 회분·packed bed 설계(Reactor Studio 기반): 처음 쓰는 사람용 5단계 안내, 흡착제 입력 창·문헌 프리셋, `? 설명` 위젯, 피팅, 흡착제 비교, 결과 요약, 단일 bed 파과곡선. 실제 화면 14개와 웹 UI 소스 전체를 보관합니다.
+
+![Adsorption Studio — 1단계 데이터 세팅 (예시 데이터·문헌 프리셋)](my-ui/adsorption-studio/full-studio/screenshots/01-guide-data.png)
+
 ## 구조
 
 ```text
@@ -92,5 +96,6 @@ Windows에서는 환경에 따라 `py tools/build_catalog.py`도 사용할 수 �
 2026-09-28: 아카이브 기본 구조 구성 및 Adsorption Workbench V1 웹 UI 최초 등록. 실측 데이터와 사용자 Vault는 포함하지 않습니다.
 2026-09-30: LabWeb 전체 사이트 UI 등록. 실제 연구실 데이터 대신 합성 데이터로 캡처했습니다.
 2026-10-28: Reactor Studio(바이오디젤 전이에스테르화 반응기 설계) 전체 UI 등록. 프로그램 기본 조건과 합성 예제 데이터로 캡처했습니다.
-현재 My UI 3개, Reference UI 0개.
+2026-10-28: Adsorption Studio(가수분해액 액상 흡착 설계) 전체 UI 등록. 예시(가상) 데이터와 내장 문헌 프리셋으로 캡처했습니다.
+현재 My UI 4개, Reference UI 0개.
 이 저장소 전체에 일괄 라이선스를 부여하지 않았습니다. 각 항목의 권리 기록을 확인하세요.

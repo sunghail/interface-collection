@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "my--adsorption-studio--full-studio",
+  "title": "Adsorption Studio · Full Studio",
+  "kind": "my",
+  "program": "adsorption-studio",
+  "author": "sunghail",
+  "primary_type": "full-layout",
+  "types": [
+    "full-layout",
+    "dashboard",
+    "data-visualization",
+    "form-input",
+    "modal-dialog",
+    "settings",
+    "table"
+  ],
+  "tags": [
+    "light",
+    "desktop",
+    "scientific",
+    "step-wizard",
+    "help-popover",
+    "flowsheet",
+    "synthetic-preview"
+  ],
+  "frameworks": [
+    "vanilla-js",
+    "svg",
+    "python-http-server",
+    "pywebview"
+  ],
+  "status": "draft",
+  "created": "2026-10-28",
+  "updated": "2026-10-28",
+  "revision": "local-2026-10-28-model-b6ac074a31f8",
+  "preview_image": "screenshots/01-guide-data.png",
+  "preview_url": null,
+  "source": {
+    "mode": "excerpt",
+    "path": "source",
+    "url": null,
+    "revision": "local snapshot 2026-10-28 (비 Git 프로젝트, 모델 버전 b6ac074a31f8); source-manifest.json"
+  },
+  "rights": {
+    "status": "unverified",
+    "license": "UNSPECIFIED",
+    "evidence": "licenses/README.md",
+    "scope": "직접 작성한 웹 UI 소스(HTML·CSS·JS) 전체와 캡처 재현 스크립트, 예시(가상) 데이터와 내장 문헌 프리셋으로 찍은 실제 화면. 내 코드의 재사용 라이선스 미정. 계산 backend(Python 모델)는 미포함. 문헌 프리셋의 수치는 각 논문에서 읽어 맞춘 값이며 논문 원문·그림은 보관하지 않음."
+  }
+}
